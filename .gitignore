@@ -2,6 +2,7 @@
 git rm --cached *.class
 # Убираем папки
 git rm -r --cached bin #-r значит рекурсивно
+bin/
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
